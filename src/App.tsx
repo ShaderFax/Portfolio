@@ -11,7 +11,7 @@ function App() {
           <div className='space-between'></div>
           <button>Projects</button>
           <button>Certificates</button>
-          <button></button>
+          <button typeof='image'></button>
         </div>
       </header>
       <body>
@@ -19,11 +19,13 @@ function App() {
       </body>
       <footer>
         <div className='footer-container'>
-          <div className='contact-container'>
+          <div className='container'>
             <ol className='contact'>
               <li><a>westleyhowe@hotmail.com</a></li>
               <li>(639)999-2720</li>
             </ol>
+            <div className='space-between'></div>
+            <button></button>
           </div>
         </div>
       </footer>

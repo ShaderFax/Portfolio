@@ -31,8 +31,14 @@ button {
   top: 20px;
 }
 
-.contact-container {
-  display: inline-block;
+footer {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: inline-flex;
   justify-content: center;
   align-items: center;
 }
@@ -40,5 +46,6 @@ button {
 .contact {
   color:white;
   list-style:circle;
-  align-content: flex-start;
+  text-align: left;
 }
+
