@@ -3,8 +3,8 @@
   justify-content: center;
   text-align: center;
   align-content: center;
-  background: linear-gradient(rgb(100,0,255), rgb(0,0,0));
-  margin: -1em;
+  background: linear-gradient(rgb(100,0,255), rgb(255, 255, 255));
+  margin: -0.5em
 }
 
 .header-container {
@@ -21,7 +21,7 @@
 
 h1 {
   font-size: 2.5em;  
-  color: white;
+  color: black;
 }
 
 button {
@@ -44,8 +44,9 @@ footer {
 }
 
 .contact {
-  color:white;
+  color: black;
   list-style:circle;
   text-align: left;
+  font-size: 20px;
 }
 

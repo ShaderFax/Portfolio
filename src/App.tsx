@@ -2,6 +2,10 @@ import './App.css'
 
 function App() {
 
+  const lightDarkTheme = () => {
+    
+  }
+
   return (
     <>
       <header>
@@ -11,7 +15,7 @@ function App() {
           <div className='space-between'></div>
           <button>Projects</button>
           <button>Certificates</button>
-          <button typeof='image'></button>
+          {/* add a light/dark theme button here.*/}
         </div>
       </header>
       <body>
@@ -25,7 +29,6 @@ function App() {
               <li>(639)999-2720</li>
             </ol>
             <div className='space-between'></div>
-            <button></button>
           </div>
         </div>
       </footer>
