@@ -23,14 +23,18 @@ function App() {
       </header>
       <body>
         <div className="about-container">
-          
+          <div className='sliding-container'>
+            <div className='sliding-image'>
+              
+            </div>
+          </div>
           <h2>About Me</h2>
           <p>
             My name is Westley Howe and I am a Software Developer.
             I have experience with Web Development and Game Development
             and I am interested in starting my career in any field.
             I have experience with various languages with the main 
-            focus being C#, JS, React, and HTML/CSS.
+            focus being C# (Unity), JS, React, and HTML/CSS.
           </p>
         </div>
       </body>
