@@ -1,5 +1,9 @@
 import './App.css'
 import { useState } from 'react';
+import profile from'./assets/profile.png'
+import furniture from './assets/furniturestore.png'
+import omega from './assets/omega.png'
+
 
 function App() {
 
@@ -16,17 +20,30 @@ function App() {
         <div className='header-container'>
           <h1>Westley Howe</h1>
           <div className='space-between'></div>
-          <button>Projects</button>
-          <button>Certificates</button>
+          <button><a href="./App.tsx">Home</a></button>
+          <button><a href='./projects.tsx'>Projects</a></button>
+          <button><a href='./certificates.tsx'>Certificates</a></button>
           {/* add a light/dark theme button here.*/}
         </div>
       </header>
       <body>
         <div className="about-container">
           <div className='sliding-container'>
-            <div className='sliding-image'>
-              
-            </div>
+              <div className="sliding-image">
+                <img src={profile}></img>
+              </div>
+              <div className="sliding-image">
+                <img src={omega}></img>
+              </div>
+              <div className="sliding-image">
+                <img src={furniture}></img>
+              </div>
+              <div className="sliding-image">
+                <img src=''></img>
+              </div>
+              <div className="sliding-image">
+                <img src=''></img>
+              </div>
           </div>
           <h2>About Me</h2>
           <p>
@@ -42,7 +59,7 @@ function App() {
         <div className='footer-container'>
           <div className='container'>
             <ol className='contact'>
-              <li><a>westleyhowe@hotmail.com</a></li>
+              <li>westleyhowe@hotmail.com</li>
               <li>(639)999-2720</li>
             </ol>
             <div className='space-between'></div>
