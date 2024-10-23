@@ -15,13 +15,22 @@ a {
 }
 
 .sliding-container {
-  display: inline;
+  display: block;
   justify-content: center;
   align-items: center;
+  padding-top: 1em;
+  padding-bottom: 3em;
+}
+
+img {
+  max-width: 300px;
+  max-height: auto;
 }
 
 .sliding-image {
-  
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .header-container {
