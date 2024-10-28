@@ -3,6 +3,7 @@ import { useState } from 'react';
 import profile from'./assets/profile.png'
 import furniture from './assets/furniturestore.png'
 import omega from './assets/omega.png'
+import best from './assets/Bestbefore.png'
 
 
 function App() {
@@ -27,24 +28,24 @@ function App() {
         </div>
       </header>
       <body>
+        <div className='sliding-container'>
+            <div className="sliding-image">
+              <img src={profile}></img>
+            </div>
+            <div className="sliding-image">
+              <img src={furniture}></img>
+            </div>
+            <div className="sliding-image">
+              <img src={omega}></img>
+            </div>
+            <div className="sliding-image">
+              <img src={best}></img>
+            </div>
+            <div className="sliding-image">
+              <img src=''></img>
+            </div>
+        </div>
         <div className="about-container">
-          <div className='sliding-container'>
-              <div className="sliding-image">
-                <img src={profile}></img>
-              </div>
-              <div className="sliding-image">
-                <img src={omega}></img>
-              </div>
-              <div className="sliding-image">
-                <img src={furniture}></img>
-              </div>
-              <div className="sliding-image">
-                <img src=''></img>
-              </div>
-              <div className="sliding-image">
-                <img src=''></img>
-              </div>
-          </div>
           <h2>About Me</h2>
           <p>
             My name is Westley Howe and I am a Software Developer.

@@ -15,29 +15,24 @@ a {
 }
 
 .sliding-container {
-  display: block;
-  justify-content: center;
-  align-items: center;
-  padding-top: 1em;
-  padding-bottom: 3em;
+  padding-top: 1.5em;
 }
 
 img {
-  max-width: 300px;
+  max-width: 500px;
   max-height: auto;
 }
 
 .sliding-image {
-  display: inline-flex;
+  display: inline;
   justify-content: center;
-  align-items: center;
+  align-content: center;
 }
 
 .header-container {
   display: inline-flex;
   justify-content: center;
   align-content: center;
-  
 }
 
 .space-between {
@@ -69,6 +64,10 @@ footer {
   display: inline-flex;
   justify-content: center;
   align-items: center;
+}
+
+.footer-container {
+  max-height: 400px;
 }
 
 .container {
