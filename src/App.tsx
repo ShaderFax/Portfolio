@@ -4,7 +4,8 @@ import profile from'./assets/profile.png'
 import furniture from './assets/furniturestore.png'
 import omega from './assets/omega.png'
 import best from './assets/Bestbefore.png'
-
+import github from './assets/github.jpg'
+import linked from './assets/linkedinlogo.png'
 
 function App() {
 
@@ -64,6 +65,10 @@ function App() {
               <li>(639)999-2720</li>
             </ol>
             <div className='space-between'></div>
+            <div className='clickable-items'>
+              <button className='github'><img src={github} className='logo'></img></button>
+              <button className='linkedin'><img src={linked} className='logo'></img></button>
+            </div>
           </div>
         </div>
       </footer>
