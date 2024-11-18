@@ -1,5 +1,6 @@
 import './App.css'
 import { useState } from 'react';
+import React from 'react';
 import profile from'./assets/profile.png'
 import furniture from './assets/furniturestore.png'
 import omega from './assets/omega.png'
@@ -22,9 +23,9 @@ function App() {
         <div className='header-container'>
           <h1>Westley Howe</h1>
           <div className='space-between'></div>
-          <button><a href="./App.tsx">Home</a></button>
-          <button><a href='./projects.tsx'>Projects</a></button>
-          <button><a href='./certificates.tsx'>Certificates</a></button>
+          <button className='top-nav'><a href="./App.tsx">Home</a></button>
+          <button  className='top-nav'><a href='./projects.tsx'>Projects</a></button>
+          <button  className='top-nav'><a href='./certificates.tsx'>Certificates</a></button>
           {/* add a light/dark theme button here.*/}
         </div>
       </header>

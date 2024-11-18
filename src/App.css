@@ -46,7 +46,7 @@ h1 {
   color: black;
 }
 
-button {
+.top-nav {
   position: relative;
   width:100px;
   height:75px;
@@ -110,4 +110,16 @@ p {
   display: inline;
   justify-content: center;
   align-items: center;
+}
+
+.github {
+  max-width: 100px;
+  background: none;
+  border: none;
+}
+
+.linkedin {
+  max-width: 100px;
+  background: none;
+  border: none;
 }
