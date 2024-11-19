@@ -1,32 +1,21 @@
 import './App.css'
-import { useState } from 'react';
-import React from 'react';
 import profile from'./assets/profile.png'
 import furniture from './assets/furniturestore.png'
 import omega from './assets/omega.png'
 import best from './assets/Bestbefore.png'
 import github from './assets/github.jpg'
 import linked from './assets/linkedinlogo.png'
+import frontend from './assets/Frontendlibraries.png'
+import javascript from './assets/JSalgorithmsandDatastructures.png'
+import htmlcss from './assets/ResponsiveWebDesign.png'
 
 function App() {
-
-  const [theme, ChangeTheme] = useState(false);
-
-  const lightDarkTheme = () => {
-    
-  }
-
   return (
     <>
       <header>
         <meta name='viewport' content='width=device-width, initial-scale=1.0' />
         <div className='header-container'>
           <h1>Westley Howe</h1>
-          <div className='space-between'></div>
-          <button className='top-nav'><a href="./App.tsx">Home</a></button>
-          <button  className='top-nav'><a href='./projects.tsx'>Projects</a></button>
-          <button  className='top-nav'><a href='./certificates.tsx'>Certificates</a></button>
-          {/* add a light/dark theme button here.*/}
         </div>
       </header>
       <body>
@@ -56,6 +45,11 @@ function App() {
             I have experience with various languages with the main 
             focus being C# (Unity), JS, React, and HTML/CSS.
           </p>
+        </div>
+        <div className='ceritificates'>
+          <img src={htmlcss}></img>
+          <img src={javascript}></img>
+          <img src={frontend}></img>
         </div>
       </body>
       <footer>
