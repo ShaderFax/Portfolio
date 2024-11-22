@@ -22,15 +22,19 @@ function App() {
         <div className='sliding-container'>
             <div className="sliding-image">
               <img src={profile}></img>
+              <p className='img-desc'>Basic portfolio website built with JS and HTML5/CSS</p>
             </div>
             <div className="sliding-image">
               <img src={furniture}></img>
+              <p className='img-desc'>Website designed for a furniture store. Built with JS and HTML5/CSS</p>
             </div>
             <div className="sliding-image">
               <img src={omega}></img>
+              <p className='img-desc'>Omega is an AI chat bot I designed to interact with and respond youtube chat, strictly using python3</p>
             </div>
             <div className="sliding-image">
               <img src={best}></img>
+              <p className='img-desc'>Best Before is a website designed to keep track of the goods in your fridge to help reduce food waste. Designed and built with Typescript w/ React framework and chakraUI</p>
             </div>
             <div className="sliding-image">
               <img src=''></img>
@@ -41,7 +45,8 @@ function App() {
           <p>
             My name is Westley Howe and I am a Software Developer.
             I have experience with Web Development and Game Development
-            and I am interested in starting my career in any field.
+            and I am interested in leveraging my programming skills to build
+            elegant systems.
             I have experience with various languages with the main 
             focus being C# (Unity), JS, React, and HTML/CSS.
           </p>
