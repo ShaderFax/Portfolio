@@ -64,10 +64,9 @@ function App() {
               <li>westleyhowe@hotmail.com</li>
               <li>(639)999-2720</li>
             </ol>
-            <div className='space-between'></div>
             <div className='clickable-items'>
-              <button className='github'><img src={github} className='logo'></img></button>
-              <button className='linkedin'><img src={linked} className='logo'></img></button>
+              <a href='https://github.com/ShaderFax'><img src={github} className='logo github'></img></a>
+              <a href='https://www.linkedin.com/in/westley-howe-229526232/'><img src={linked} className='logo linkedin'></img></a>
             </div>
           </div>
         </div>

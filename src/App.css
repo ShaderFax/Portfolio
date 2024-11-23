@@ -24,7 +24,9 @@ img {
 }
 
 .img-desc {
-  
+  background-color: white;
+  padding: 1em;
+  width: 300px;
 }
 
 .sliding-image {
@@ -37,11 +39,6 @@ img {
   display: inline-flex;
   justify-content: center;
   align-content: center;
-}
-
-.space-between {
-  padding-left: 6em;
-  padding-right: 6em;
 }
 
 h1 {
@@ -114,16 +111,17 @@ p {
   display: inline;
   justify-content: center;
   align-items: center;
+  margin-left: 1em;
 }
 
 .github {
-  max-width: 100px;
+  max-width: 75px;
   background: none;
   border: none;
 }
 
 .linkedin {
-  max-width: 100px;
+  max-width: 75px;
   background: none;
   border: none;
 }
