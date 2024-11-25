@@ -21,12 +21,17 @@ a {
 img {
   max-width: 25%;
   max-height: 25%;
+  display: block;
+  margin: 0 auto;
 }
 
 .img-desc {
   background-color: white;
   padding: 1em;
-  width: 300px;
+  width: 350px;
+  display: block;
+  text-align: justify;
+  margin: 0 auto;
 }
 
 .sliding-image {
