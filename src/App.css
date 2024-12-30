@@ -52,6 +52,18 @@ p {
 
 /* Body */
 
+.body-container {
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 1em;
+}
+
+.about-me {
+  
+}
+
 /* Footer */
 
 footer {
@@ -67,6 +79,14 @@ footer {
   position: relative;
   left: -16em;
   padding-bottom: 3em;
+}
+
+.container {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 1em;
 }
 
 .contact {
@@ -87,13 +107,13 @@ footer {
 }
 
 .github {
-  max-width: 75px;
+  max-width: 50px;
   background: none;
   border: none;
 }
 
 .linkedin {
-  max-width: 75px;
+  max-width: 50px;
   background: none;
   border: none;
 }

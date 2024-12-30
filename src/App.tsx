@@ -19,7 +19,26 @@ function App() {
         </div>
       </header>
       <body>
-        
+        <div className="body-container">
+          <div className='container'>
+            <div className='projects-container'>
+              <h2>Projects</h2>
+              <div className='projects'>
+
+              </div>
+            </div>
+            <div className='profile-container'>
+              <img className='profile'></img>
+              <p className='about-me'>
+                Hi, my name is Westley Howe and I am a software developer with a passion for creating various projects
+                and learning. I have experience with HTML, CSS, JavaScript, Node.js, React, C++ and C#. I am always 
+                looking to learn more and expand my knowledge.
+              </p>
+            </div>
+            
+            
+          </div>
+        </div>
       </body>
       <footer>
         <div className='footer-container'>
