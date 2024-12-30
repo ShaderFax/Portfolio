@@ -34,7 +34,7 @@ function App() {
               <h2>About Me</h2>
               <p className='about-me'>
                 Greetings, my name is Westley Howe and I am a software developer with a passion for creating various projects
-                and learning. I have experience with HTML, CSS, JavaScript, Node.js, React, Python, C++ and C#. I am always 
+                and learning. I have experience with HTML, CSS, JavaScript, Node.js, React, TypeScript, Python, C++ and C#. I am always 
                 looking to learn more and expand my knowledge. I am currently seeking to expand my skills as a 
                 software developer and am open to new opportunities.
               </p>
