@@ -24,7 +24,9 @@ function App() {
             <div className='projects-container'>
               <h2>Projects</h2>
               <div className='projects'>
-
+                {/* Make the projects cards, when doing the mobile have one card 
+                display with two arrows on the side. For windows, do the same thing,
+                but make it 3 cards*/}
               </div>
             </div>
             <div className='profile-container'>
