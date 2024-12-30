@@ -29,14 +29,14 @@ function App() {
             </div>
             <div className='profile-container'>
               <img className='profile'></img>
+              <h2>About Me</h2>
               <p className='about-me'>
-                Hi, my name is Westley Howe and I am a software developer with a passion for creating various projects
-                and learning. I have experience with HTML, CSS, JavaScript, Node.js, React, C++ and C#. I am always 
-                looking to learn more and expand my knowledge.
+                Greetings, my name is Westley Howe and I am a software developer with a passion for creating various projects
+                and learning. I have experience with HTML, CSS, JavaScript, Node.js, React, Python, C++ and C#. I am always 
+                looking to learn more and expand my knowledge. I am currently seeking to expand my skills as a 
+                software developer and am open to new opportunities.
               </p>
             </div>
-            
-            
           </div>
         </div>
       </body>
