@@ -4,7 +4,9 @@
   text-align: center;
   align-content: center;
   background: linear-gradient(rgb(100,0,255), rgb(255, 255, 255));
-  margin: -0.5em
+  margin: -0.5em;
+  max-width: 1920px;
+  min-width: 320px;
 }
 
 a {
