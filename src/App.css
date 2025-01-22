@@ -60,6 +60,23 @@ p {
   align-items: center;
   position: relative;
   margin-top: 1em;
+
+}
+
+.projects-container {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 1em;
+}
+
+.cards-container {
+
+}
+
+.cards {
+  
 }
 
 .about-me {
