@@ -64,7 +64,7 @@ p {
 }
 
 .projects-container {
-  display: inline-flex;
+  display: inline-block;
   justify-content: center;
   align-items: center;
   position: relative;
@@ -72,11 +72,24 @@ p {
 }
 
 .cards-container {
-
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 1em;
 }
 
 .cards {
   
+}
+
+.card-img{
+  max-width: 25%;
+  max-height: 25%;
+}
+
+.description-container{
+
 }
 
 .about-me {

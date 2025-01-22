@@ -28,7 +28,10 @@ function App() {
                 display with two arrows on the side. For windows, do the same thing,
                 but make it 3 cards*/}
                 <div className='card'>
-                  
+                  <img src={omega} className='card-img'></img>
+                  <div className="description-container">
+                    
+                  </div>
                 </div>
               </div>
             </div>
