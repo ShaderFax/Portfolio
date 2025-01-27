@@ -14,53 +14,24 @@ function App() {
     <>
       <header>
         <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+        <title>Westley Howe</title>
         <div className='header-container'>
-          <h1>Westley Howe</h1>
+          
         </div>
       </header>
       <body>
-        <div className="body-container">
-          <div className='container'>
-            <div className='projects-container'>
-              <h2>Projects</h2>
-              <div className='cards-container'>
-                {/* Make the projects cards, when doing the mobile have one card 
-                display with two arrows on the side. For windows, do the same thing,
-                but make it 3 cards*/}
-                <div className='card'>
-                  <img src={omega} className='card-img'></img>
-                  <div className="description-container">
-                    
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className='profile-container'>
-              <img className='profile'></img>
-              <h2>About Me</h2>
-              <p className='about-me'>
-                Greetings, my name is Westley Howe and I am a software developer with a passion for creating various projects
-                and learning. I have experience with HTML, CSS, JavaScript, Node.js, React, TypeScript, Python, C++ and C#. I am always 
-                looking to learn more and expand my knowledge. I am currently seeking to expand my skills as a 
-                software developer and am open to new opportunities.
-              </p>
-            </div>
-          </div>
-        </div>
+        {/* The first section of the body should contain an about me portion that will 
+        contain a brief desctription of who I am and what my qualifications are. There
+        should be cards that show what I have experience with.
+        
+        Below that there will be a section outlining some completed projects, of which you
+        have not done cause you are a fucking moron who burns out and loses all hope for your
+        future and are scared you are going to live as nothing more than a peasant who isn't 
+        enough for anyone.*/}
       </body>
       <footer>
-        <div className='footer-container'>
-          <div className='container'>
-            <ol className='contact'>
-              <li>westleyhowe@hotmail.com</li>
-              <li>(639)999-2720</li>
-            </ol>
-            <div className='clickable-items'>
-              <a href='https://github.com/ShaderFax'><img src={github} className='logo github'></img></a>
-              <a href='https://www.linkedin.com/in/westley-howe-229526232/'><img src={linked} className='logo linkedin'></img></a>
-            </div>
-          </div>
-        </div>
+        {/* Here there will be a contact section allowing someone to put their name, email and 
+        purpose for contact. Also place buttons showing what platforms you use, I.E. LinkedIn and Github */}
       </footer>
     </>
   )
