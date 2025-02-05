@@ -1,13 +1,4 @@
 import './App.css'
-import profile from'./assets/profile.png'
-import furniture from './assets/furniturestore.png'
-import omega from './assets/omega.png'
-import best from './assets/Bestbefore.png'
-import github from './assets/github.jpg'
-import linked from './assets/linkedinlogo.png'
-import frontend from './assets/Frontendlibraries.png'
-import javascript from './assets/JSalgorithmsandDatastructures.png'
-import htmlcss from './assets/ResponsiveWebDesign.png'
 
 function App() {
   return (
@@ -31,12 +22,21 @@ function App() {
         future and are scared you are going to live as nothing more than a peasant who isn't 
         enough for anyone.*/}
         <div className="title-container">
-          
+          <h1 className="title">Westley Howe</h1>
+        </div>
+        <div className="about-container">
+
+        </div>
+        <div className='projects-container'>
+
         </div>
       </body>
       <footer>
         {/* Here there will be a contact section allowing someone to put their name, email and 
         purpose for contact. Also place buttons showing what platforms you use, I.E. LinkedIn and Github */}
+        <div className='contact-container'>
+
+        </div>
       </footer>
     </>
   )
