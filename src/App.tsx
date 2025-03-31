@@ -14,7 +14,7 @@ function App() {
     <>
       <header>
         <meta name='viewport' content='width=device-width, initial-scale=1.0' />
-        <title>Westley Howe</title>
+        <title>Westley Howe | Software Developer</title>
         <div className='header-container'>
           
         </div>
