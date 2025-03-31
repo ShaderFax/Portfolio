@@ -1,26 +1,26 @@
 import './App.css'
-import profile from'./assets/profile.png'
-import furniture from './assets/furniturestore.png'
-import omega from './assets/omega.png'
-import best from './assets/Bestbefore.png'
-import github from './assets/github.jpg'
-import linked from './assets/linkedinlogo.png'
-import frontend from './assets/Frontendlibraries.png'
-import javascript from './assets/JSalgorithmsandDatastructures.png'
-import htmlcss from './assets/ResponsiveWebDesign.png'
 
 function App() {
   return (
     <>
       <header>
         <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+<<<<<<< HEAD
         <title>Westley Howe | Software Developer</title>
         <div className='header-container'>
           
         </div>
+=======
+        <title>Westley Howe</title>
+>>>>>>> refs/remotes/origin/main
       </header>
       <body>
-        {/* The first section of the body should contain an about me portion that will 
+        {/* The title card of the page should have my name centered in the middle of 
+        the page with a partical effect in the background where the particles spawn in
+        at random points in the title card then disappear. When the mouse hovers over
+        the particles, they should behave the same, but will expand into a bubble. 
+        
+        The first section of the body should contain an about me portion that will 
         contain a brief desctription of who I am and what my qualifications are. There
         should be cards that show what I have experience with.
         
@@ -28,10 +28,22 @@ function App() {
         have not done cause you are a fucking moron who burns out and loses all hope for your
         future and are scared you are going to live as nothing more than a peasant who isn't 
         enough for anyone.*/}
+        <div className="title-container">
+          <h1 className="title">Westley Howe</h1>
+        </div>
+        <div className="about-container">
+
+        </div>
+        <div className='projects-container'>
+
+        </div>
       </body>
       <footer>
         {/* Here there will be a contact section allowing someone to put their name, email and 
         purpose for contact. Also place buttons showing what platforms you use, I.E. LinkedIn and Github */}
+        <div className='contact-container'>
+
+        </div>
       </footer>
     </>
   )
